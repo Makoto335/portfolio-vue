@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+body {
+  font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond,
+    Times New Roman, serif;
+  line-height: 1.7;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+.error {
+  color: #ff3f80;
+}
+button {
+  width: 120px;
+  height: 60px;
+  font-weight: bold;
+  border: 2px solid rgb(220, 216, 216);
+  border-bottom: solid 4px #627295;
+  border-radius: 7px;
+  cursor: pointer;
+  &:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+  }
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
