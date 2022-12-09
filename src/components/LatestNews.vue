@@ -10,10 +10,6 @@
             <h2>ポートフォリオサイトを作りました。</h2>
           </div>
           <div class="LatestNews_Action">
-            <a href="https://github.com/Makoto335" class="fa-2x github">
-              <button>
-                <font-awesome-icon :icon="['fab', 'github']" /></button
-            ></a>
             <a href=""> <button>リンク</button></a>
           </div>
         </div>
