@@ -7,12 +7,12 @@
           <img :src="aboutImage" alt="" />
           <div class="MyWorks_Text">
             <h3>Portfolio Website</h3>
-            <h2>ポートフォリオサイトを作りました。</h2>
+            <h2>ポートフォリオサイト</h2>
           </div>
           <div class="MyWorks_Action">
-            <button class="fa-3x github">
-              <font-awesome-icon :icon="['fab', 'github']" />
-            </button>
+            <a href="https://github.com/Makoto335" class="fa-3x github">
+              <font-awesome-icon :icon="['fab', 'github']"
+            /></a>
             <button @click="showModal" class="MyWorks_Btn">構成・概要</button>
           </div>
         </div>
@@ -97,6 +97,8 @@ export default {
   &_Action {
     padding: 10px;
     margin-top: auto;
+    a {
+    }
     button {
       vertical-align: middle;
       background: unset;
