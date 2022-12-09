@@ -1,3 +1,3 @@
 import axios from "axios";
-axios.defaults.baseURL = "https://nameless-fortress-40218.herokuapp.com";
+axios.defaults.baseURL = process.env.VUE_APP_API_URL;
 export default axios;

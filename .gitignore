@@ -25,3 +25,4 @@ pnpm-debug.log*
 # environment variables
 .env.development
 .vercel
+.env
