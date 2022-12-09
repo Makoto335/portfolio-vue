@@ -97,8 +97,6 @@ export default {
   &_Action {
     padding: 10px;
     margin-top: auto;
-    a {
-    }
     button {
       vertical-align: middle;
       background: unset;
