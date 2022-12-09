@@ -4,8 +4,8 @@
       <img :src="aboutImage" alt="" />
       <div class="MyWorksModal_Text">
         <p>
-          フロントはVue3（Vue CLI）+ Vercel、バックエンドにRailsAPIモード +
-          HerokuのレスポンシブなSPA構成になっています。次に予定しているWebアプリのための習作として、シンプルなサイトですがあえてSPAにチャレンジしてみました。当初はフロントはVueに触ったこともなく、HTMLとCSSもあやふやな状態で、バックエンドに関してはRuby
+          フロントはレスポンシブ対応でVue3+ Vercel、バックエンドにRailsAPIモード +
+          HerokuのSPA構成になっています。次に予定しているWebアプリのための習作として作ったので、シンプルなサイトですがあえてSPAにチャレンジしてみました。当初はフロントはVueに触ったこともなく、HTMLとCSSもあやふやな状態で、バックエンドに関してはRuby
           on Rails
           Tutorialを学習した程度だったため、制作の過程で非常に多くのことを学ぶことができました。
         </p>
