@@ -10,9 +10,18 @@
             <h2>ポートフォリオサイト</h2>
           </div>
           <div class="MyWorks_Action">
-            <a href="https://github.com/Makoto335" class="fa-3x github">
-              <font-awesome-icon :icon="['fab', 'github']"
-            /></a>
+            <div class="MyWorks_Github">
+              <a href="https://github.com/Makoto335/portfolio-vue" class="fa-3x github">
+                <font-awesome-icon :icon="['fab', 'github']"
+              /></a>
+              <div>Vue</div>
+            </div>
+            <div class="MyWorks_Github">
+              <a href="https://github.com/Makoto335/portfolio-rails" class="fa-3x github">
+                <font-awesome-icon :icon="['fab', 'github']"
+              /></a>
+              <div>Rails</div>
+            </div>
             <button @click="showModal" class="MyWorks_Btn">構成・概要</button>
           </div>
         </div>
@@ -95,8 +104,9 @@ export default {
     }
   }
   &_Action {
+    display: flex;
+    justify-content: center;
     padding: 10px;
-    margin-top: auto;
     button {
       vertical-align: middle;
       background: unset;
@@ -106,9 +116,8 @@ export default {
     .MyWorks_Btn {
       margin-left: 10px;
     }
-    .github {
+    .MyWorks_Github{
       margin-right: 10px;
-      vertical-align: middle;
     }
   }
 }
