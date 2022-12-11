@@ -5,7 +5,8 @@
 <hr>
 
 ポートフォリオサイトです。<br >
-API サーバとして自身で作った portfolio-rails (https://github.com/Makoto335/portfolio-rails)と連携してSPAかつレスポンシブなサイトにしました。 <br >
+API サーバとして自身で作った portfolio-rails と連携してSPAかつレスポンシブなサイトにしました。 <br >
+portfolio-rails:https://github.com/Makoto335/portfolio-rails
 <br >
 
 # URL
