@@ -36,5 +36,3 @@ https://portfolio-vue-three.vercel.app/
 - レスポンシブデザイン
 - ハンバーガーメニュー
 - モーダルウィンドウ
-
-# ライセンス
