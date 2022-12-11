@@ -1,11 +1,14 @@
 <div align="center">
- <img width="300" alt="スクリーンショット 2020-05-07 0 06 18" src="https://user-images.githubusercontent.com/102998595/206843251-2b16b425-27de-462b-a071-75427b3ac93b.png">
+ <img width="500" alt="スクリーンショット 2020-05-07 0 06 18" src="https://user-images.githubusercontent.com/102998595/206843251-2b16b425-27de-462b-a071-75427b3ac93b.png">
 </div>
-<div style="text-align: center;font-size: 200%">portfolio-vue</div>
-<hr>
+<!-- <div style="text-align: center; font-size: 200%">portfolio-vue</div>
+<hr> -->
+<div style="text-align: center;">
+テスト
+</div>
 
 ポートフォリオサイトです。<br >
-API サーバとして自身で作った portfolio-rails と連携してSPAかつレスポンシブなサイトにしました。 <br >
+API サーバとして自身で作った portfolio-rails と連携してSPAかつレスポンシブなサイトにしました。 <br ><br >
 portfolio-railsのリポジトリはこちら→https://github.com/Makoto335/portfolio-rails
 <br >
 
